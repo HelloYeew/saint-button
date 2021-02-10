@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en_TH">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Saint Button</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <!-- icon -->
+    <link rel="icon" href="img/saint_round.png"/>
+
+    <meta name="og:title" content="Saint Button"/>
+    <meta name="og:description" content="เฮ้ย ตายแล้ว กดจังเลยปุ่มเนี่ย"/>
+    <meta property="og:site_name" content="Saint Button" />
+    <meta property="og:image" content="https://saint-button.netlify.app/img/saint.png" />
+    <meta property="og:image:width" content="500" />
+    <meta property="og:image:height" content="500" />
+    <meta property="og:locale" content="en_TH" />
+    <meta property="og:type" content="website" />
+    <!-- Search Engine -->
+	<title>PWA Offline Quick Start</title>
+	<meta name="title" content="Vtuber button" />
+	<meta name="description" content="เฮ้ย ตายแล้ว กดจังเลยปุ่มเนี่ย" />
+    <meta name="author" content="HelloYeew" />
+    
+    <!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta
+		name="twitter:title"
+		content="Saint Button"
+	/>
+	<meta
+		name="twitter:description"
+		content="เฮ้ย ตายแล้ว กดจังเลยปุ่มเนี่ย"
+	/>
+	<meta name="twitter:site" content="@HelloYeew" />
+	<meta name="twitter:image" content="https://saint-button.netlify.app/img/saint.png" />
+	<meta name="twitter:creator" content="@HelloYeew" />
+
+    <link rel="stylesheet" type="text/css" href="/index.css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet" rel="preload"/>
+    <script>
+        if ('mediaSession' in navigator)
+            navigator.mediaSession.metadata = new MediaMetadata({
+                title: 'Saint Button',
+                artist: 'Panuwat Kongkaew',
+                album: 'กดอีกแล้ว',
+                artwork: [{ src: 'https://saint-button.netlify.app/img/saint.png' }]
+            })
+    </script>
+</head>
+
+<body id="body">
+    <main id="app">
+        <header id="header">
+            <a href="https://youtu.be/dQw4w9WgXcQ"><img src="img/saint_round.png" alt="9arm" width="350" height="350" style="vertical-align:middle"></a>
+            <h1 class="title">Saint Button</h1>
+            <p class="detail">เฮ้ย ตายแล้ว กดจังเลยปุ่มเนี่ย</p>
+        </header>
+
+        <section id="controller">
+            <saint-button src="almost-died.mp3" time="1.2">เกือบตายแล้วไอ***</saint-button>
+            <saint-button src="i-hia.mp3" time="1">ไอ***!</saint-button>
+        </section>
+
+        <!-- Earrape Zone
+        <a id="earrape"></a>
+        <h2>ให้นายอาร์มระเบิดหูคุณกัน!</h2>
+        <section id="controller">
+            <saint-button src="i-kwai-earrape.mp3" time="3.3">ไอควายยยยยยยยยย (earrape)</saint-button>
+            <saint-button src="10-watt-na-krub-earrape.mp3" time="0.9">10 watt นะครับ (earrape)</saint-button>
+        </section>
+        <h1></h1> -->
+    <hr size="3" width="60%" color="black">
+        <p>
+            <a href="https://github.com/HelloYeew/saint-button"><img src="img/github.svg" alt="github repo" width="60" height="60" style="vertical-align:middle"></a>
+            <a href="https://hololive-button.helloyeew.dev"><img src="img/yagoo-1.png" alt="hololive button" width="60" height="60" style="vertical-align:middle"></a>
+            <a href="https://9arm-button.netlify.app"><img src="img/9arm_round.png" alt="9arm button" width="60" height="60" style="vertical-align:middle"></a>
+            <a href="https://github.com/SaltyAom/prophet-button"><img src="img/prophet-button-sig.png" alt="prophet button" width="60" height="60" style="vertical-align:middle"></a>
+            <a href="https://github.com/HelloYeew"><img src="img/kasumi.png" alt="github profiles" width="60" height="60" style="vertical-align:middle"></a>
+        </p>
+
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <script type="module" src="/_dist_/index.js"></script>
